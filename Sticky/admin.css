@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+#topbar{
+    background: green;
+    height:68px;
+    color: #fff;
+    text-align: center;
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.topbarPlaceholder{
+    height:60px;
+}
+
+main{
+    background: #ddd;
+    height: 800px;
+}
+
+#topbar.sticky {
+    width: 100%;
+}

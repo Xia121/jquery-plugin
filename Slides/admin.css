@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.frankSlides {
+    overflow: hidden;
+    position: relative;
+}
+
+.frankSlides ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    -webkit-transition: transform 0.3s;
+    -moz-transition: transform 0.3s;
+    -ms-transition: transform 0.3s;
+    -o-transition: transform 0.3s;
+    transition: transform 0.3s;
+}
+
+.frankSlides ol>li {
+    width:100%;
+}
+
+.frankSlides ol>li img{
+    vertical-align: top;
+    width: 300px;
+}
+
+.frankSlides-prev{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.frankSlides-next{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
